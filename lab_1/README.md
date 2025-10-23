@@ -1,2 +1,8 @@
 # Lab 1
-For lab statement and run instructions see `doc/task.pdf` and `doc/report.pdf`.
+
+## Build
+g++ parent.cpp -o parent
+g++ child.cpp -o child
+
+## Run
+./parent
