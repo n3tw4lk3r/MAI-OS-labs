@@ -1,8 +1,5 @@
 # Lab 2
 
-## Build
-g++ parent.cpp -o parent
-g++ child.cpp -o child
-
-## Run
-./parent
+## Build & Run
+chmod +x performance_test.sh
+./performance_test.sh
