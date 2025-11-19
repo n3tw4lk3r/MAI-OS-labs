@@ -1,0 +1,108 @@
+# Build directories
+build/
+cmake-build-*/
+*.build/
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled object files
+*.o
+*.obj
+*.ko
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Executables
+lab_2
+matrix_processor
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Coverage reports
+*.gcno
+*.gcda
+*.gcov
+
+# Profiling
+*.prof
+*.ps
+
+# Documentation
+docs/
+*.aux
+*.log
+*.toc
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+strace_threads_*.log
+strace_output.txt
+
+# Test and performance data
+performance_results.csv
+performance_results_advanced.csv
+accurate_results.csv
+simple_results.csv
+quick_test.csv
+performance_table.txt
+accurate_performance.txt
+performance_results.txt
+
+# Charts and graphs
+*.png
+performance_charts.png
+current_performance_analysis.png
+performance_analysis.png
+performance_placeholder.png
+
+# Temporary files
+*.tmp
+*.temp
+test_*.c
+test_computation
+test_filters
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Segmentation fault core dumps
+core
+*.core
